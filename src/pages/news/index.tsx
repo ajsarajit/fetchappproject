@@ -57,7 +57,7 @@ const News = () => {
             
             displayData.map((d:any)=>{
                 {
-                    return <ul typeof="1" key={d.id}>
+                    return <ul typeof="1" key={d.title}>
                     <li>{d.content}</li>
                     <button >Delete</button>
                     <button>Add to top</button>
