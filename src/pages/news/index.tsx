@@ -1,5 +1,6 @@
+"use client"
 import { useState, useEffect, use } from "react";
-const url = 'https://newsapi.org/v2/everything?q=tesla&from=2024-05-14&sortBy=publishedAt&apiKey=e77b8006662c4d21b0afe7893f3626c8'
+const url = 'https://newsapi.org/v2/everything?q=tesla&from=2024-05-14&sortBy=publishedAt&apiKey=f8e248d78ee947c1a877b8a61ccf1be7'
 
 const fetchData = async (page:any) => {
   const response = await fetch(`${url}&page=${page}`);
